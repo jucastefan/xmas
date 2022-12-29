@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
-}
+@media screen and (min-width: 576px) {
+  .home__village {
+    width: 360px;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .home__pine {
+    width: 330px;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .about__container,
+  .celebrate__container {
+    grid-template-columns: 0.6fr;
+    justify-content: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 767px) {
+  .nav__toggle,
+  .nav__close,
+  .nav__img-1,
+  .nav__img-2 {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+
+  .home {
+    height: 800px;
+  }
+
+  .home__village {
+    width: 460px;
+  }
+
+  .home__pine {
+    width: 400px;
+    bottom: 7rem;
+  }
+
+  .home__moon {
+    width: 450px;
+    bottom: 12rem;
+  }
+
+  .home__trineo {
+    width: 350px;
+    bottom: 20rem;
+  }
+
+  .send__container {
+    grid-template-columns: repeat(3, 200px);
+    column-gap: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding-block: 7rem 3rem;
+  }
+
+  .home__title {
+    font-size: 4rem;
+  }
+
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 6rem;
+  }
+
+  .about__data,
+  .about__data .section__title {
+    text-align: initial;
+  }
+
+  .about__img {
+    width: 50rem;
+    order: -1;
+  }
+
+  .about__snow-1 {
+    top: 0;
+    left: 0;
+  }
+
+  .about__snow-2 {
+    right: 10rem;
+    bottom: 3.5rem;
+  }
+
+  .send__container {
+    grid-template-columns: repeat (3, 1fr);
+    column-gap: 7.5rem;
+    padding-top: 3rem;
+  }
+
+  .send__img {
+    margin-bottom: 1rem;
+  }
+
+  .send__description {
+    font-size: var(--normal-font-size);
+  }
+
+  .send__snow-1 {
+    left: -1rem;
+    top: -1rem;
+  }
+
+  .send__snow-2 {
+    top: 3rem;
+  }
+
+  .send__snow-3 {
+    left: 33rem;
+    bottom: 0;
+  }
+
+  .celebrate__data,
+  .celebrate__data .section__title {
+    text-align: initial;
+  }
+
+  .home__village {
+    width: 800px;
+    bottom: 4rem;
+  }
+
+  .home__pine {
+    width: 250px;
+    bottom: 4rem;
+  }
+
+  .home__mountain-1 {
+    width: 100%;
+  }
+
+  .home__mountain-2 {
+    left: 6rem;
+    bottom: 3rem;
+  }
+
+  .home__mountain-3 {
+    bottom: 6rem;
+  }
+
+  .home__moon {
+    width:450px;
+    bottom: 24rem;
+  }
+
+  .home__trineo {
+    width: 400px;
+    bottom: 30rem;
   }
 }

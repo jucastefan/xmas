@@ -1,0 +1,40 @@
+.celebrate__container {
+  position: relative;
+  row-gap: 3.5rem;
+}
+
+.celebrate__data {
+  text-align: center;
+}
+
+.celebrate__description {
+  margin-bottom: 2rem;
+}
+
+.celebrate__img {
+  width: 320px;
+  justify-self: center;
+  margin: 3rem 3rem;
+}
+
+.celebrate__snow-1,
+.celebrate__snow-2 {
+  width: 50px;
+  position: absolute;
+}
+
+.celebrate__snow-1 {
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.celebrate__snow-2 {
+  top: 18rem;
+  right: 0;
+}
+
+.celebrate__snow-1 {
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
