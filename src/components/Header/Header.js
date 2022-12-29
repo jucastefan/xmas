@@ -5,7 +5,6 @@ import "./Header.css";
 
 function Header() {
   const [navToggle, setNavToggle] = useState(false);
-  const [navClose, setNavClose] = useState(false);
   const [bgHeader, setBgHeader] = useState(false);
 
   const navToggleHandler = () => {
