@@ -2,7 +2,6 @@ import React from "react";
 import send from "../../images/send-night.png";
 import gifts from "../../images/send-gifts.png";
 import sendsanta from "../../images/send-santa.png";
-import snow from "../../images/snow-img.png";
 import "./Send.css";
 
 function Send() {

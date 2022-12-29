@@ -5,6 +5,7 @@ import "./Header.css";
 
 function Header() {
   const [navToggle, setNavToggle] = useState(false);
+  const [navClose, setNavClose] = useState(true);
   const [bgHeader, setBgHeader] = useState(false);
 
   const navToggleHandler = () => {
@@ -59,7 +60,7 @@ function Header() {
           </ul>
           {/* Close button */}
           <div className="nav__close" id="nav-close" onClick={navCloseHandler}>
-            <i class="ri-close-line"></i>
+            {navClose && <i class="ri-close-line"></i>}
           </div>
 
           <img src={snowImg} alt="snow" className="nav__img-1" />
